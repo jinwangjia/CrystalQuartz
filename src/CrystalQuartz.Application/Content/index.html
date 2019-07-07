@@ -59,7 +59,7 @@
                 <div id="commandIndicator" class="col-xs-3 col-md-2 cq-header-item"></div>
                 
                 <div class="col-xs-3 col-md-5 cq-header-item visible-md-block visible-lg-block">
-                    <a class="cq-leave-link" href='/'>return to the main site</a>        
+                    <a class="cq-leave-link" href='/'>返回主页</a>        
                 </div>
             </div>
         </div>
@@ -114,7 +114,7 @@
             </section>
             
             <section class="cq-error-dialog-toolbar clearfix">
-                <a href="#" class="close cq-button pull-left">Close</a>
+                <a href="#" class="close cq-button pull-left">关闭</a>
             </section>    
         </div>
     </div>
@@ -128,7 +128,7 @@
                 <table class="properties">
                     <thead>
                         <tr>
-                            <th class="cq-job-details-panel-title" colspan="2">Job properties</th>
+                            <th class="cq-job-details-panel-title" colspan="2">任务的属性</th>
                         </tr>
                         <tr>
                             <th>Property</th>
@@ -145,7 +145,7 @@
                 <table class="dataMap">
                     <thead>
                         <tr>
-                            <th class="cq-job-details-panel-title" colspan="3">Job data map</th>
+                            <th class="cq-job-details-panel-title" colspan="3">任务的数据映射</th>
                         </tr>
                         <tr>
                             <th>Key</th>
@@ -169,10 +169,10 @@
         <section class="actions dropdown pull-right">
             <a href="#" class="cq-actions-toggle dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
             <ul class="dropdown-menu">
-                <li class="cq-with-icon"><a href="#" class="pause" title=""><span class="flaticon-pause"></span>Pause all jobs</a></li>
-                <li class="cq-with-icon"><a href="#" class="resume" title=""><span class="flaticon-play"></span>Resume all jobs</a></li>
+                <li class="cq-with-icon"><a href="#" class="pause" title=""><span class="flaticon-pause"></span>暂停所有任务</a></li>
+                <li class="cq-with-icon"><a href="#" class="resume" title=""><span class="flaticon-play"></span>恢复所有任务</a></li>
                 <li role="separator" class="divider"></li>
-                <li class="cq-with-icon"><a href="#" class="delete" title=""><span class="flaticon-remove"></span>Delete all jobs</a></li>
+                <li class="cq-with-icon"><a href="#" class="delete" title=""><span class="flaticon-remove"></span>删除所有任务</a></li>
             </ul>
         </section>
 
@@ -187,20 +187,20 @@
         <div class="status"></div>
         
         <a class="cq-job-header-title loadDetails name" href="#"></a>
-        <a class="cq-job-hide-details hideDetails" href="#">hide details</a>
+        <a class="cq-job-hide-details hideDetails" href="#">隐藏 详情</a>
 
         <section class="actions dropdown pull-right">
             <a href="#" class="cq-actions-toggle dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
             <ul class="dropdown-menu">
-                <li class="cq-with-icon"><a href="#" class="pause" title=""><span class="flaticon-pause"></span>Pause all triggers</a></li>
-                <li class="cq-with-icon"><a href="#" class="resume" title=""><span class="flaticon-play"></span>Resume all triggers</a></li>
+                <li class="cq-with-icon"><a href="#" class="pause" title=""><span class="flaticon-pause"></span>暂停所有触发器</a></li>
+                <li class="cq-with-icon"><a href="#" class="resume" title=""><span class="flaticon-play"></span>恢复所有触发器</a></li>
 
                 <li role="separator" class="divider"></li>
-                <li class="cq-with-icon"><a href="#" class="delete" title=""><span class="flaticon-remove"></span>Delete job</a></li>
+                <li class="cq-with-icon"><a href="#" class="delete" title=""><span class="flaticon-remove"></span>删除任务</a></li>
 
                 <li role="separator" class="divider"></li>
-                <li><a href="#" class="execute">Execute Now</a></li>
-                <li><a href="#" class="addTrigger">Add Trigger</a></li>
+                <li><a href="#" class="execute">立即执行</a></li>
+                <li><a href="#" class="addTrigger">添加触发器</a></li>
             </ul>
         </section>
     </header>
@@ -210,12 +210,12 @@
     <table class="cq-triggers triggers">
         <thead>
             <tr>
-                <th>Trigger</th>
-                <th>Schedule</th>
-                <th>Start date</th>
-                <th>End date</th>
-                <th>Previous fire date</th>
-                <th class="cq-pre-actions">Next fire date</th>
+                <th>触发器</th>
+                <th>预定计划</th>
+                <th>开始时间</th>
+                <th>结束时间</th>
+                <th>上一次</th>
+                <th class="cq-pre-actions">下一次</th>
                 <th></th>
             </tr>
         </thead>
@@ -230,19 +230,19 @@
             <div class="row">
                 <div class="col-sm-4 col-md-12">
                     <a id="startSchedulerButton" class='cq-button' href="#">
-                        <span class="cq-icon flaticon-play"></span> Start scheduler
+                        <span class="cq-icon flaticon-play"></span> StartScheduler(启动)
                     </a>
                 </div>
 
                 <div class="col-sm-4 col-md-12">
                     <a id="stopSchedulerButton" class='cq-button' href="#">
-                        <span class="cq-icon flaticon-power"></span> Shutdown
+                        <span class="cq-icon flaticon-power"></span> Shutdown(关闭)
                     </a>
                 </div>
 
                 <div class="col-sm-4 col-md-12">
                     <a id="refreshData" class='cq-button' href="#">
-                        <span class="cq-icon flaticon-refresh"></span> Refresh
+                        <span class="cq-icon flaticon-refresh"></span> 刷新
                     </a>
                 </div>
             </div>
@@ -252,19 +252,19 @@
             <table class="cq-info-table">
                 <thead>
                     <tr>
-                        <th colspan="2">Statistics</th>
+                        <th colspan="2">统计</th>
                     </tr>
                 </thead>
                 <tr>
-                    <th>Running since:</th>
+                    <th>Running since(正在执行):</th>
                     <td class="runningSince"></td>
                 </tr>
                 <tr>
-                    <th>Total Jobs:</th>
+                    <th>Total Jobs(总任务数):</th>
                     <td class="totalJobs"></td>
                 </tr>
                 <tr>
-                    <th>Executed Jobs:</th>
+                    <th>Executed Jobs(已经执行):</th>
                     <td class="executedJobs"></td>
                 </tr>
             </table>
@@ -274,11 +274,11 @@
             <table class="cq-info-table">
                 <thead>
                     <tr>
-                        <th colspan="2">Properties</th>
+                        <th colspan="2">属性</th>
                     </tr>
                 </thead>
                 <tr>
-                    <th>Name:</th>
+                    <th>名称:</th>
                     <td class="schedulerName"></td>
                 </tr>
                 <tr>
@@ -308,7 +308,7 @@
     <div class="cq-dialog-content">
         <form class="cq-form form-horizontal">
             <div class="form-group form-group-sm">
-                <label for="triggerName" class="col-sm-3 control-label">Trigger Name:</label>
+                <label for="triggerName" class="col-sm-3 control-label">触发器名称:</label>
                 <div class="col-sm-9">
                     <input id="triggerName" type="text" class="triggerName form-control" />
                     
@@ -321,7 +321,7 @@
             <div class="cq-form-separator"></div>
 
             <div class="form-group form-group-sm">
-                <label for="triggerType" class="col-sm-3 control-label">Trigger Type:</label>
+                <label for="triggerType" class="col-sm-3 control-label">触发器类型:</label>
                 <div class="col-sm-9">
                     <select id="triggerType" class="form-control triggerType">
                         <option value="Simple">Simple</option>
@@ -332,21 +332,21 @@
                 
             <div class="simpleTriggerDetails">
                 <div class="form-group form-group-sm">
-                    <label for="repeatCount" class="col-sm-3 col-xs-12 control-label">Repeat Count:</label>
+                    <label for="repeatCount" class="col-sm-3 col-xs-12 control-label">重复次数:</label>
                     <div class="col-sm-5 col-xs-8 repeatCountContainer">
                         <input id="repeatCount" type="text" class="form-control repeatCount" />    
                     </div>
                     <div class="col-sm-4 col-xs-4">
                         <div class="checkbox">
                             <label>
-                                <input type="checkbox" class="repeatForever" /> Repeat forever
+                                <input type="checkbox" class="repeatForever" />永久重复
                             </label>
                         </div>
                     </div>
                 </div>
 
                 <div class="form-group form-group-sm last">
-                    <label class="col-sm-3 col-xs-12 control-label" for="repeatInterval">Repeat every:</label>
+                    <label class="col-sm-3 col-xs-12 control-label" for="repeatInterval">Repeat every(每次):</label>
 
                     <div class="col-sm-5 col-xs-6 repeatIntervalContainer">
                         <input id="repeatInterval" type="text" class="form-control repeatInterval"/>
@@ -372,7 +372,7 @@
                             <input id="cronExpression" type="text" class="form-control cronExpression" />
                             <div class="cronExpressionContainer"></div>
                             <p class="cq-field-description">
-                                Read more about cron format at <a target="_blank" href="https://www.quartz-scheduler.net/documentation/quartz-2.x/tutorial/crontrigger.html">Quartz.NET docs</a>
+                                查看cron更多的格式<a target="_blank" href="https://www.quartz-scheduler.net/documentation/quartz-2.x/tutorial/crontrigger.html">Quartz.NET 文档</a>
                             </p>
                         </div>    
                     </div>
@@ -382,9 +382,9 @@
     </div>
         
     <footer class="cq-dialog-footer">
-        <a href="#" class="cancel cq-button pull-left">Cancel</a>
+        <a href="#" class="cancel cq-button pull-left">取消</a>
             
-        <a href="#" class="save cq-button cq-main-button pull-right">Save</a>
+        <a href="#" class="save cq-button cq-main-button pull-right">保存</a>
     </footer>
 </div> 
 	</script>
@@ -403,11 +403,11 @@
         <section class="actions dropdown pull-right">
             <a href="#" class="cq-actions-toggle dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
             <ul class="dropdown-menu">
-                <li class="cq-with-icon"><a href="#" class="pause" title=""><span class="flaticon-pause"></span>Pause trigger</a></li>
-                <li class="cq-with-icon"><a href="#" class="resume" title=""><span class="flaticon-play"></span>Resume trigger</a></li>
+                <li class="cq-with-icon"><a href="#" class="pause" title=""><span class="flaticon-pause"></span>暂停触发器</a></li>
+                <li class="cq-with-icon"><a href="#" class="resume" title=""><span class="flaticon-play"></span>恢复触发器</a></li>
 
                 <li role="separator" class="divider"></li>
-                <li class="cq-with-icon"><a href="#" class="delete" title=""><span class="flaticon-remove"></span>Delete trigger</a></li>
+                <li class="cq-with-icon"><a href="#" class="delete" title=""><span class="flaticon-remove"></span>删除触发器</a></li>
             </ul>
         </section>
     </td>

@@ -6,7 +6,7 @@
     <div class="cq-dialog-content">
         <form class="cq-form form-horizontal">
             <div class="form-group form-group-sm">
-                <label for="triggerName" class="col-sm-3 control-label">Trigger Name:</label>
+                <label for="triggerName" class="col-sm-3 control-label">触发器名称:</label>
                 <div class="col-sm-9">
                     <input id="triggerName" type="text" class="triggerName form-control" />
                     
@@ -19,7 +19,7 @@
             <div class="cq-form-separator"></div>
 
             <div class="form-group form-group-sm">
-                <label for="triggerType" class="col-sm-3 control-label">Trigger Type:</label>
+                <label for="triggerType" class="col-sm-3 control-label">触发器类型:</label>
                 <div class="col-sm-9">
                     <select id="triggerType" class="form-control triggerType">
                         <option value="Simple">Simple</option>
@@ -30,21 +30,21 @@
                 
             <div class="simpleTriggerDetails">
                 <div class="form-group form-group-sm">
-                    <label for="repeatCount" class="col-sm-3 col-xs-12 control-label">Repeat Count:</label>
+                    <label for="repeatCount" class="col-sm-3 col-xs-12 control-label">重复次数:</label>
                     <div class="col-sm-5 col-xs-8 repeatCountContainer">
                         <input id="repeatCount" type="text" class="form-control repeatCount" />    
                     </div>
                     <div class="col-sm-4 col-xs-4">
                         <div class="checkbox">
                             <label>
-                                <input type="checkbox" class="repeatForever" /> Repeat forever
+                                <input type="checkbox" class="repeatForever" />永久重复
                             </label>
                         </div>
                     </div>
                 </div>
 
                 <div class="form-group form-group-sm last">
-                    <label class="col-sm-3 col-xs-12 control-label" for="repeatInterval">Repeat every:</label>
+                    <label class="col-sm-3 col-xs-12 control-label" for="repeatInterval">Repeat every(每次):</label>
 
                     <div class="col-sm-5 col-xs-6 repeatIntervalContainer">
                         <input id="repeatInterval" type="text" class="form-control repeatInterval"/>
@@ -70,7 +70,7 @@
                             <input id="cronExpression" type="text" class="form-control cronExpression" />
                             <div class="cronExpressionContainer"></div>
                             <p class="cq-field-description">
-                                Read more about cron format at <a target="_blank" href="https://www.quartz-scheduler.net/documentation/quartz-2.x/tutorial/crontrigger.html">Quartz.NET docs</a>
+                                查看cron更多的格式<a target="_blank" href="https://www.quartz-scheduler.net/documentation/quartz-2.x/tutorial/crontrigger.html">Quartz.NET 文档</a>
                             </p>
                         </div>    
                     </div>
@@ -80,8 +80,8 @@
     </div>
         
     <footer class="cq-dialog-footer">
-        <a href="#" class="cancel cq-button pull-left">Cancel</a>
+        <a href="#" class="cancel cq-button pull-left">取消</a>
             
-        <a href="#" class="save cq-button cq-main-button pull-right">Save</a>
+        <a href="#" class="save cq-button cq-main-button pull-right">保存</a>
     </footer>
 </div>
